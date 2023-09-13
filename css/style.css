@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+    background-image: url(../images/cyberpunk-2077-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+ul {
+    list-style-type: none;
+    
+}
+
+ul li{
+ display: inline-block;   
+}
+
+ul li a{
+    font-size: 40px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    margin-right: 20px;
+    background-color: darkorange;
+    border-radius: 10px;
+}
+a{
+color:rgb(255, 106, 0)
+font-size: 24px;
+}
+
+
+ul li a:hover {
+    color:rgb(114, 1, 253);
+    background-color: red;
+}
+
+.container{
+    height: 300px;
+    width: 960px;
+    background-color: rgb(120, 120, 120);
+margin: 0 auto;
+margin-top: 100px;
+}
+header{
+    background-color: orange;
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+    color: white
+}
+
+* {
+    box-sizing: border-box;
+}
+
+nav{
+    float: left;
+    width: 30%;
+    height: 300px;
+    background: rgb(1, 247, 235);
+    padding: 20px;
+}
+
+article {
+    flout: left;
+    paddinng: 20px;
+    width: 70%;
+    background-color: olivedrab;
+    height: 300px;
+}
